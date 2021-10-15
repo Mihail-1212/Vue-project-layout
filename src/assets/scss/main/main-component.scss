@@ -1,0 +1,19 @@
+@import "../colors.scss";
+
+
+
+.main-container {
+  margin: 0 20px;
+
+  .user-list {
+    li {
+      display: flex;
+      flex-direction: row;
+      
+      .id {
+        margin-right: 20px;
+      }
+    }
+    
+  }
+}
